@@ -1,0 +1,32 @@
+@mixin percent {
+  padding-left: .5em;
+  color: white;
+}
+
+@for $i from 1 through 10 {
+
+  .percent-#{$i * 10} {
+
+    // calcul de la largeur
+
+    width: 6em * $i;
+
+    // calcul de la couleur
+
+    background: rgb(510 - $i * 51, $i * 25.5, 0);
+
+    // ajout de la valeur en texte avec le sélecteur parent et ::after
+    // http://sass-lang.com/documentation/file.SASS_REFERENCE.html#Referencing_Parent_Selectors_____parent-selector
+    // https://www.w3schools.com/cssref/sel_after.asp
+
+    &::after {
+      content: " : #{$i * 10}%"
+    }
+
+    // inclusion du mixin pour les propriétés communes
+
+    @include percent;
+
+  }
+
+}

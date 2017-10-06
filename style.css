@@ -1,0 +1,81 @@
+.percent-10 {
+  width: 6em;
+  background: #ff1a00;
+  padding-left: .5em;
+  color: white; }
+  .percent-10::after {
+    content: " : 10%"; }
+
+.percent-20 {
+  width: 12em;
+  background: #ff3300;
+  padding-left: .5em;
+  color: white; }
+  .percent-20::after {
+    content: " : 20%"; }
+
+.percent-30 {
+  width: 18em;
+  background: #ff4d00;
+  padding-left: .5em;
+  color: white; }
+  .percent-30::after {
+    content: " : 30%"; }
+
+.percent-40 {
+  width: 24em;
+  background: #ff6600;
+  padding-left: .5em;
+  color: white; }
+  .percent-40::after {
+    content: " : 40%"; }
+
+.percent-50 {
+  width: 30em;
+  background: #ff8000;
+  padding-left: .5em;
+  color: white; }
+  .percent-50::after {
+    content: " : 50%"; }
+
+.percent-60 {
+  width: 36em;
+  background: #cc9900;
+  padding-left: .5em;
+  color: white; }
+  .percent-60::after {
+    content: " : 60%"; }
+
+.percent-70 {
+  width: 42em;
+  background: #99b300;
+  padding-left: .5em;
+  color: white; }
+  .percent-70::after {
+    content: " : 70%"; }
+
+.percent-80 {
+  width: 48em;
+  background: #66cc00;
+  padding-left: .5em;
+  color: white; }
+  .percent-80::after {
+    content: " : 80%"; }
+
+.percent-90 {
+  width: 54em;
+  background: #33e600;
+  padding-left: .5em;
+  color: white; }
+  .percent-90::after {
+    content: " : 90%"; }
+
+.percent-100 {
+  width: 60em;
+  background: lime;
+  padding-left: .5em;
+  color: white; }
+  .percent-100::after {
+    content: " : 100%"; }
+
+/*# sourceMappingURL=style.css.map */
